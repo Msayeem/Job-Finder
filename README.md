@@ -1,5 +1,5 @@
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
-Ans: getElementById calls an id, getElementsByClassName calls classes, querySelector can call both id and classes but only the first one, querySelectorAll can call all the classes and id.
+Ans: getElementById calls an id, getElementsByClassName calls classes, querySelector can call id, classes, tags but only the first matching one and querySelectorAll can call all matching ones .
 
 ### 2. How do you create and insert a new element into the DOM?
 Ans: At first, we need to create an element using document.createElement, after that we can insert that new element into the DOM by using appendChild.
