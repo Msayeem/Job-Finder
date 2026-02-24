@@ -17,10 +17,16 @@ let co7=document.getElementById('xx');
 if(co4>=1){
     co7.classList.add('hidden')
 }
+    else {
+    co7.classList.remove('hidden');
+}
 
 let co8=document.getElementById('xxx');
 if(co6>=1){
     co8.classList.add('hidden')
+}
+    else {
+    co8.classList.remove('hidden');
 }
 
 let j1 = document.getElementById('j1');
