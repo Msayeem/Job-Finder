@@ -1,4 +1,4 @@
- function ma0(){
+function ma0(){
     let co10=document.getElementById('tota-counter');
     let co=document.getElementById('total-counter');
     let co2=document.getElementById('jobs').children.length;
@@ -17,7 +17,7 @@ let co7=document.getElementById('xx');
 if(co4>=1){
     co7.classList.add('hidden')
 }
-else {
+    else {
     co7.classList.remove('hidden');
 }
 
@@ -25,7 +25,7 @@ let co8=document.getElementById('xxx');
 if(co6>=1){
     co8.classList.add('hidden')
 }
-else {
+    else {
     co8.classList.remove('hidden');
 }
 
@@ -226,4 +226,3 @@ function render2(){
 
 
 }
-    
